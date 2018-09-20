@@ -64,7 +64,7 @@ curl -X POST --header 'Content-Type: application/json' --header 'Accept: applica
  * gender (MALE, FEMALE , OTHER) (optional)
 	
 ```
-curl -X POST --header 'Content-Type: application/json' --header 'Accept: application/json' -d '{ \ 
+curl -X POST --header 'Content-Type: application/json' --header 'Accept: application/json' -d '{ 
    "$class": "org.medical.ledger.Patient", 
    "patientID": "p1",
    "name": {
